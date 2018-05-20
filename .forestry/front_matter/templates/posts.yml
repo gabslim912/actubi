@@ -35,11 +35,6 @@ fields:
   type: textarea
   hidden: false
   default: ''
-- name: main_img
-  label: Main img
-  type: file
-  hidden: false
-  default: ''
 - type: select
   config:
     source:
@@ -75,5 +70,8 @@ fields:
     - Lutte
     - Football
   label: Rubriques
+- type: file
+  name: main_img
+  label: Main Image
 pages:
 - _posts/2018-05-20-revivez-le-meilleur-du-beau-mariage-princier-de-harry-et-meghan-duc-et-duchesse-de-sussex.md
