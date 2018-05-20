@@ -47,3 +47,5 @@ fields:
   type: file
   hidden: false
   default: ''
+pages:
+- _posts/la-palme-d-or-pour-une-affaire-de-famille-de-hirokazu-kore-eda.md
