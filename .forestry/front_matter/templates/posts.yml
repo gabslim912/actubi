@@ -1,0 +1,77 @@
+---
+hide_body: false
+is_partial: false
+fields:
+- name: title
+  label: Title
+  type: textarea
+  hidden: false
+  default: ''
+- name: layout
+  label: Layout
+  type: text
+  hidden: false
+  default: post
+  description: post
+  config:
+    required: false
+- name: date
+  label: Date
+  type: datetime
+  hidden: false
+  default: ''
+- name: auteurs
+  label: Auteurs
+  type: text
+  hidden: false
+  default: ''
+- name: tags
+  label: Tags
+  type: tag_list
+  hidden: false
+  default: ''
+- name: mini_desc
+  label: Mini desc
+  type: textarea
+  hidden: false
+  default: ''
+- name: main_img
+  label: Main img
+  type: file
+  hidden: false
+  default: ''
+- type: select
+  config:
+    source:
+      type: simple
+    required: true
+    options:
+    - Videos
+    - Tech
+    - Culture
+    - Sport
+    - Buzz
+    - Societe
+    - Politique
+    - International
+  label: Categories
+  name: categories
+  default: Videos
+- type: select
+  name: rubriques
+  config:
+    source:
+      type: simple
+    options:
+    - Sante
+    - Religion
+    - People
+    - Musique
+    - Mode
+    - Elections
+    - Education
+    - Economie
+    - Basket
+    - Lutte
+    - Football
+  label: Rubriques
