@@ -1,0 +1,167 @@
+<header>
+    <!-- Mobile Menu Start -->
+    <div class="mobile-menu-area navbar-fixed-top hidden-sm hidden-md hidden-lg">
+        <nav class="mobile-menu" id="mobile-menu">
+            <div class="sidebar-nav">
+                <ul class="nav side-menu">
+                    <li class="sidebar-search">
+                        <div class="input-group custom-search-form">
+                            <input type="text" class="form-control" placeholder="Search...">
+                            <span class="input-group-btn">
+                                    <button class="btn mobile-menu-btn" type="button">
+                                        <i class="fa fa-search"></i>
+                                    </button>
+                                </span>
+                        </div>
+                        <!-- /input-group -->
+                    </li>
+                              
+                    
+                    <li>
+                        <a href="/">ACCUEIL</a>
+                    </li>
+                    {% for category in site.categories %}
+                    <li>
+                        <a href="{{ category.url }}">{{ category.title }}</a>
+                    </li>
+                    {% endfor %}
+                    
+                    <!-- social icon -->
+                    <li>
+                        <div class="social">
+                            <ul>
+                                <li><a href="{{ site.facebook_url }}" class="facebook"><i class="fa  fa-facebook"></i> </a></li>
+                                <li><a href="{{ site.twitter_url }}" class="twitter"><i class="fa  fa-twitter"></i></a></li>
+                                <li><a href="{{ site.googleplus_url }}" class="google"><i class="fa  fa-google-plus"></i></a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="top_header_icon">
+                <span class="top_header_icon_wrap">
+                        <a target="_blank" href="{{ site.twitter_url }}" title="Twitter"><i class="fa fa-twitter"></i></a>
+                    </span>
+                <span class="top_header_icon_wrap">
+                        <a target="_blank" href="{{ site.facebook_url }}" title="Facebook"><i class="fa fa-facebook"></i></a>
+                    </span>
+                <span class="top_header_icon_wrap">
+                        <a target="_blank" href="{{ site.googleplus_url }}" title="Google"><i class="fa fa-google-plus"></i></a>
+                    </span>
+                <span class="top_header_icon_wrap">
+                        <a target="_blank" href="{{ site.instagram_url }}" title="Instagram"><i class="fa fa-instagram"></i></a>
+                    </span>
+                <span class="top_header_icon_wrap">
+                        <a target="_blank" href="{{ site.youtube_url }}" title="Youtube"><i class="fa fa-youtube"></i></a>
+                    </span>               
+            </div>
+            <div id="showLeft" class="nav-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+    <!-- Mobile Menu End -->
+    <!-- top header -->
+    <div class="top_header hidden-xs">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4 col-md-3">
+                    <div class="top_header_menu_wrap">
+                        <ul class="top-header-menu">
+                            <li><a href="http://www.senseries.com/" target="_blank" >SERIES TV</a></li>
+                            <li><a href="http://www.snzik.com/" target="_blank" >MUSIQUE</a></li>                            
+                            <li><a href="/contact" target="_blank" >CONTACT</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!--breaking news-->
+                <div class="col-sm-8 col-md-7">
+                    <div class="newsticker-inner">
+                        <ul class="newsticker">
+                        {% for post in site.posts limit: 5 %}
+                            <li><span class="color-1">{{ post.categories }} -</span><span class="color-2">{{ post.rubriques }}</span><a href="{{ post.url }}">{{ post.title | escape }}</a></li>
+                            
+                        {% endfor %}
+                        </ul>
+                        <div class="next-prev-inner">
+                            <a href="#" id="prev-button"><i class='pe-7s-angle-left'></i></a>
+                            <a href="#" id="next-button"><i class='pe-7s-angle-right'></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-2">
+                    <div class="top_header_icon">
+                        
+                        <span class="top_header_icon_wrap">
+                                <a target="_blank" href="{{ site.facebook_url }}" title="Facebook"><i class="fa fa-facebook"></i></a>
+                            </span>
+                        <!--<span class="top_header_icon_wrap">
+                                <a target="_blank" href="{{ site.twitter_url }}" title="Twitter"><i class="fa fa-twitter"></i></a>
+                            </span>
+                        <span class="top_header_icon_wrap">
+                                <a target="_blank" href="{{ site.googleplus_url }}" title="Google"><i class="fa fa-google-plus"></i></a>
+                            </span>
+                        <span class="top_header_icon_wrap">
+                                <a target="_blank" href="{{ site.instagram_url }}" title="Instagram"><i class="fa fa-instagram"></i></a>
+                            </span>
+                        <span class="top_header_icon_wrap">
+                                <a target="_blank" href="{{ site.youtube_url }}" title="Youtube"><i class="fa fa-youtube"></i></a>
+                            </span>-->
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="top_banner_wrap">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-md-4 col-sm-4">
+                    <div class="header-logo" >
+                        <!-- logo -->
+                        <a href="/">
+                            <img class="td-retina-data img-responsive" src="/images/actubi.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xs-8 col-md-8 col-sm-8 hidden-xs">
+                    <div class="header-banner">
+                        <a href="#"><img class="td-retina img-responsive" src="/images/pub_large_gif.gif" alt="" style="width: 728px; height: 90px;"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- navber -->
+    <div class="container hidden-xs">
+        <nav class="navbar">
+            <div class="collapse navbar-collapse text-center">
+                <ul class="nav navbar-nav">
+                    <li><a href="/" class="category04" style="background-color: #f60d2b;">ACCUEIL</a></li>
+                {% for category in site.categories %}
+                    <li class="dropdown">
+                        <a href="{{ category.url }}" class="category04 text-uppercase">{{ category.title }} </span></a>
+                        <!--
+                        <ul class="dropdown-menu menu-slide">
+                            {% assign rubriques = site.rubriques | where:"categories", category.title   %}
+                            {% for rubrique in rubriques %}
+                            <li><a href="{{ rubrique.url }}">{{ rubrique.title }}</a></li>
+                            {% endfor %}
+                            
+                                
+                            </li>
+                        </ul>
+                        -->
+                    </li> 
+                {% endfor %}                  
+                </ul>
+            </div>
+            <!-- navbar-collapse -->
+        </nav>
+    </div>
+</header>

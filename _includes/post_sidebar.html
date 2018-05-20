@@ -1,0 +1,44 @@
+<div class="col-sm-12 col-md-4">
+                        <div class="sidebar">
+                            
+                            <div class="widget w-tags">
+                                <h4 class="widget-title">Rubriques</h4>
+                                <div class="widget-box">
+                                    <ul class="srchtags">
+                                    {% for rubrique in site.rubriques %}
+                                        <li><a href="{{ rubrique.url }}">{{ rubrique.title }} </a></li>
+                                        
+                                    {% endfor %}
+                                    </ul>
+                                </div>
+                            </div>   
+                            <div class="widget w-subscribe">
+                                <h4 class="widget-title">Reseaux sociaux</h4>
+                                {% include follow.html %}
+                            </div>
+                            
+                            <!--
+                            <div class="widget w-insta">
+                                <h4 class="widget-title">Derniers Posts</h4>
+                                <div class="widget-box">
+                                    
+                                    {% for post in site.posts limit: 8 %}
+                                    {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+                                    
+                                    <div class="side-letest">
+                                        <div class="sidelist-img">
+                                            <a href="{{ post.url }}"><img src="{{ post.main_img }}" alt="image"></a>
+                                        </div>
+                                        <div class="sidelist-info">
+                                            <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+                                            <h5>{{ post.rubriques }}</h5>
+                                            <span class="post-date">{{ post.date }}</span> 
+                                        </div>
+                                    </div>
+                                    {% endfor %}
+                                </div>
+                            </div>
+                            -->
+                                         
+                        </div>
+                    </div>

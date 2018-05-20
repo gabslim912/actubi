@@ -1,0 +1,42 @@
+---
+title: ACTUBI.COM - LE MEILLEUR DE L'INFORMATION
+timezone: UTC
+collections:
+  categories:
+    title: Categories
+    output: true
+  posts:
+    title: Posts
+    output: true
+  rubriques:
+    title: Rubriques
+    output: true
+  sliders:
+    title: Sliders
+    output: true
+  auteurs:
+    title: Auteurs
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+email: contact@revovision.ca
+tel: "+221 77 665 55 44"
+description: 'Notre but est de vous offir le meilleur de linformation en temps reel et de maniere impartiale'
+baseurl: 
+url: www.actubi.com
+adresse: 2, Avenue L. S. Senghor, Dakar Plateau
+twitter_url: https://twitter.com
+instagram_url: https://instagram.com
+youtube_url: https://youtube.com
+facebook_url: https://facebook.com/actubi221
+googleplus_url: https://googleplus.com
+github_username: jekyll
+markdown: kramdown
+gems:
+- jekyll-feed
+- jekyll/tagging
+- jekyll-tagging-related_posts
+exclude:
+- Gemfile
+- Gemfile.lock

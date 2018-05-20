@@ -1,0 +1,125 @@
+<section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-8">
+                    <div class="row">
+                        <!-- business Area
+                            ============================================ -->
+                        <div class="col-sm-6 col-md-6">
+                            <div class="buisness">
+                            
+                            {% assign posts = site.posts | where:"categories", 'Politique'  %}
+                            {% assign first_post = posts.first  %}
+                                <h3 class="category-headding ">POLITIQUE</h3>
+                                <div class="headding-border bg-color-5"></div>
+                                <div class="post-wrapper wow fadeIn" data-wow-duration="1s">
+                                    <!-- post title -->
+                                    <h3><a href="{{ first_post.url }}">{{ first_post.title | slice: 0, 40}}</a></h3>
+                                    <!-- post image -->
+                                    <div class="post-thumb">
+                                        <a href="{{ first_post.url }}">
+                                            <img src="{{ first_post.main_img }}" class="" alt="" width="326px" height="163px">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="post-title-author-details">
+                                    <div class="post-editor-date">
+                                        <!-- post date -->
+                                        <div class="post-date">
+                                            <i class="pe-7s-clock"></i>{{ first_post.date | date: "%b %d, %y" }}
+                                        </div>
+                                        <!-- post comment -->
+                                    
+                                    </div>
+                                    <p>{{ first_post.mini_desc | slice: 0, 90}} <a href="{{ first_post.url }}">Voir plus...</a></p>
+                                </div>
+                                {% for post in posts limit: 3 offset:1 %}
+                                <div class="box-item wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
+                                    <div class="img-thumb">
+                                        <a href="{{ post.url }}" rel="bookmark"><img class="entry-thumb" src="{{ post.main_img }}" alt="" height="70" width="100"></a>
+                                    </div>
+                                    <div class="item-details">
+                                        <h3 class="td-module-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+                                        <div class="post-editor-date">
+                                            <!-- post date -->
+                                            <div class="post-date">
+                                                <i class="pe-7s-clock"></i> {{ post.date | date: "%b %d, %y" }}
+                                            </div>
+                                            <!-- post comment -->
+                                        
+                                        </div>
+                                    </div>
+                                </div>
+                                {% endfor %}
+                            </div>
+                        </div>
+                        <!-- international Area
+                            ============================================ -->
+                        <div class="col-sm-6 col-md-6">
+                            <div class="international">
+                            {% assign posts = site.posts | where:"categories", 'Sport'  %}
+                            {% assign first_post = posts.first  %}
+                                <h3 class="category-headding ">SPORT</h3>
+                                <div class="headding-border bg-color-2"></div>
+                                <div class="post-wrapper wow fadeIn" data-wow-duration="1s">
+                                    <!-- post title -->
+                                    <h3><a href="{{ first_post.url }}">{{ first_post.title }}</a></h3>
+                                    <!-- post image -->
+                                    <div class="post-thumb">
+                                        <a href="{{ first_post.url }}">
+                                            <img src="{{ first_post.main_img }}" class="" alt="" width="326px" height="163px">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="post-title-author-details">
+                                    <div class="post-editor-date">
+                                        <!-- post date -->
+                                        <div class="post-date">
+                                            <i class="pe-7s-clock"></i>{{ first_post.date | date: "%b %d, %y" }}
+                                        </div>
+                                        <!-- post comment -->
+                                    
+                                    </div>
+                                    <p>{{ first_post.mini_desc | slice: 0, 90}} <a href="{{ first_post.url }}">Voir plus...</a></p>
+                                </div>
+                                {% for post in posts limit: 3 offset:1 %}
+                                <div class="box-item wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
+                                    <div class="img-thumb">
+                                        <a href="{{ post.url }}" rel="bookmark"><img class="entry-thumb" src="{{ post.main_img }}" alt="" height="70" width="100"></a>
+                                    </div>
+                                    <div class="item-details">
+                                        <h3 class="td-module-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+                                        <div class="post-editor-date">
+                                            <!-- post date -->
+                                            <div class="post-date">
+                                                <i class="pe-7s-clock"></i> {{ post.date | date: "%b %d, %y" }}
+                                            </div>
+                                            <!-- post comment -->
+                                        
+                                        </div>
+                                    </div>
+                                </div>
+                                {% endfor %}
+                            </div>
+                            <!-- /.international -->
+                        </div>
+                    </div>
+                    <!-- technology Area
+                        ============================================ -->
+                    
+                </div>
+                <!-- second content aside -->
+                <div class="col-md-4 col-sm-4 left-padding">
+                    <aside>
+                        <!-- corresponder news -->
+                        <!-- left post -->
+                        {% include sidebar_category.html %}
+                        <!-- /left post -->
+                    </aside>
+                </div>
+                 <!-- social icon -->
+                 {% include sidebar_facebook_home.html %}
+                <!-- /.social icon -->
+            </div>
+        </div>
+    </section>

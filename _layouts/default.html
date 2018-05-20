@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+
+<body>
+    <!--<div class="se-pre-con"></div>-->
+    {% include header.html %}
+    <!-- news feed Area
+        ============================================ -->
+    {% include a_la_une.html %}
+    <div class="container">
+        <div class="row">
+            {% include left_content.html %}
+            <!-- /.left content inner -->
+            {% include side_content.html%}
+            <!-- side content end -->
+        </div>
+        <!-- row end -->
+    </div>
+    <!-- container end -->
+    
+    <!-- second content -->
+    {% include second_content.html %}
+    <!-- second content end -->
+    <div class="container">
+        <!-- /.adds -->
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="ads">
+                    <a href="#"><img src="images/pub_large.jpg" class="img-responsive center-block" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.adds-->
+    
+    <!-- article section Area
+        ============================================ -->
+    <div class="lat_arti_cont_wrap">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    
+                            <h3 class="category-headding ">INTERNATIONAL</h3>
+                            <div class="headding-border"></div>
+                        
+                    <!-- post-2 -->
+                    
+                    {% assign posts = site.posts | where:"categories", 'International'  %}
+                    {% for post in posts limit: 4 %}
+                        <div class="col-sm-3">
+                            <div class="item home2-post">
+                                <div class="post-wrapper">
+                                    <!-- image -->
+                                    <div class="post-thumb">
+                                        <a href="{{ post.url }}">
+                                            <img class="" src="{{ post.main_img }}" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="post-info meta-info-rn">
+                                        <div class="slide">
+                                            <a target="_blank" href="#" class="post-badge">{{ post.rubriques }}</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h4><a href="{{ post.url }}">{{ post.title | slice: 0, 40 }}</a></h3>
+                                <div class="post-title-author-details">
+                                    <p>{{ post.mini_desc | slice: 0, 70}}</p>
+                                </div>
+                            </div>
+                        </div>
+                       {% endfor %}
+                    
+                </div>
+                <!-- /.article -->
+               
+            </div>
+        </div>
+    </div>
+    <!-- all category  news Area
+        ============================================ -->
+    <section class="all-category-inner">
+        <div class="container">
+            <div class="row">
+            {% for rubrique in site.rubriques limit:6 %}
+            {% assign posts = site.posts | where:"rubriques", rubrique.title  %}
+            {% assign first_post = posts.first  %}
+                <div class="col-md-4 col-sm-4">
+                    <!-- sports -->
+                    <div class="sports-inner">
+                        <h3 class="category-headding ">{{ rubrique.title }}</h3>
+                        <div class="headding-border bg-color-1"></div>
+                        <div class="post-wrapper wow fadeIn" data-wow-duration="1s">
+                            <!-- post title -->
+                            <div style="width: 326px; height: 45px; margin-bottom: 5px;">
+                                <h3 class="text-justify"><a href="{{ first_post.url }}">{{ first_post.title }}</a></h3>
+                            </div>
+                            <!-- post image -->
+                            <div class="post-thumb">
+                                <a href="{{ first_post.url }}">
+                                    <img src="{{ first_post.main_img }}" class="" alt="" width="326px" height="226px">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="post-title-author-details">
+                            <div class="post-editor-date">
+                                <!-- post date -->
+                                <div class="post-date">
+                                    <i class="pe-7s-clock"></i> {{ first_post.date | date: "%b %d, %y" }}
+                                </div>
+                                <!-- post comment -->
+                                
+                            </div>
+                            <p>{{ first_post.mini_desc | slice: 0, 90}}<a href="{{ first_post.url }}"> Voir plus...</a></p>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+            </div>
+        </div>
+    </section>
+    <!-- footer Area
+        ============================================ -->
+    {% include footer.html %}
+    
+</body>
+
+</html>

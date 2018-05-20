@@ -1,0 +1,139 @@
+<footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="footer-box footer-logo-address">
+                        <!-- address  -->
+                        <img src="/images/actubi.png" class="img-responsive" alt="">
+                        <address>
+                            {{ site.adresse }}
+                            <br> Tel: {{ site.tel }}
+                            <br> Email: {{ site.email }}
+                        </address>
+                    </div>
+                    <!-- /.address  -->
+                </div>
+                <div class="col-sm-3">
+                    <div class="footer-box">
+                        <h3 class="category-headding">categories</h3>
+                        <div class="headding-border bg-color-4"></div>
+                        <ul>
+                            {% for category in site.categories %}
+                            <li><i class="fa fa-dot-circle-o"></i><a href="{{ category.url }}">{{ category.title }}</a></li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="footer-box">
+                        <h3 class="category-headding">POPULAR TAGS</h3>
+                        <div class="headding-border"></div>
+                        <a class="tag" href="" title="">EDUCATION</a>
+                        <a class="tag" href="" title="">ELECTIONS 2019</a>
+                        <a class="tag" href="" title="">COUPE DU MONDE 2018</a>
+                        <a class="tag" href="" title="">YOUSSOU NDOUR</a>                        
+                        <a class="tag" href="" title="">DONALD TRUMP</a>
+                        
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    
+                    <div class="newsletter-inner">
+                        <!-- newsletter -->
+                        <h3 class="category-headding ">NEWSLETTER</h3>
+                        <div class="headding-border"></div>
+                        <p>INSCRIVEZ VOUS A NOTRE NEWSLETTER !</p>
+                        <input type="text" class="form-control" id="email" name="email" placeholder="Entrez votre email" required>
+                        <button type="button" class="btn btn-style">M'INSCRIRE</button>
+                    </div>
+                    <!-- /.newsletter -->
+                    
+                </div>
+                
+                
+            </div>
+        </div>
+</footer>
+<div class="sub-footer">
+    <!-- sub footer -->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <p>Realisé par <a href="http://bdtask.com/" class="color-1">REVOVISION</a> | Tout droit réservé 2018</p>
+                <div class="social">
+                    <ul>
+                        <li><a href="{{ facebook_url }}" class="facebook"><i class="fa  fa-facebook"></i> </a></li>
+                        <!--<li><a href="{{ twitter_url }}" class="twitter"><i class="fa  fa-twitter"></i></a></li>
+                        <li><a href="{{ googleplus_url }}" class="google"><i class="fa  fa-google-plus"></i></a></li>                        
+                        <li><a href="{{ youtube_url }}" class="youtube"><i class="fa fa-youtube"></i></a></li>
+                        <li><a href="{{ instagram_url }}" class="instagram"><i class="fa fa-instagram"></i></a></li>-->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- /.sub footer -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-117224960-3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-117224960-3');
+</script>
+
+    <!-- Load Twitter SDK for JavaScript -->
+<script>window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
+
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+
+  return t;
+}(document, "script", "twitter-wjs"));</script>
+
+<!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v2.12&appId=894842400553895&autoLogAppEvents=1';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script type="text/javascript" src="/js/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+    <!-- Metis Menu Plugin JavaScript -->
+    <script type="text/javascript" src="/js/metisMenu.min.js"></script>
+    <!-- Scrollbar js -->
+    <script type="text/javascript" src="/js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <!-- animate js -->
+    <script type="text/javascript" src="/js/wow.min.js"></script>
+    <!-- Newstricker js -->
+    <script type="text/javascript" src="/js/jquery.newsTicker.js"></script>
+    <!--  classify JavaScript -->
+    <script type="text/javascript" src="/js/classie.js"></script>
+    <!-- owl carousel js -->
+    <script type="text/javascript" src="/owl-carousel/owl.carousel.js"></script>
+    <!-- youtube js -->
+    <script type="text/javascript" src="/js/RYPP.js"></script>
+    <!-- jquery ui js -->
+    <script type="text/javascript" src="/js/jquery-ui.js"></script>
+    <!-- form -->
+    <script type="text/javascript" src="/js/form-classie.js"></script>
+    <!-- custom js -->
+    <script type="text/javascript" src="/js/custom.js"></script>

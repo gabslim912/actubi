@@ -1,0 +1,205 @@
+<div class="col-md-8 col-sm-8">
+                <!-- left content inner -->
+                <section class="recent_news_inner">
+                    <h3 class="category-headding ">DERNIERES NOUVELLES</h3>
+                    <div class="headding-border"></div>
+                    <div class="row">
+                        <div id="content-slide" class="owl-carousel">
+                            <!-- item-1 -->
+                            {% for post in site.posts limit: 3 %}
+                            <div class="item">
+                                <div class="post-wrapper wow fadeIn" data-wow-duration="1s">
+                                    <!-- image -->
+                                    <div style="width: 294px; height: 55px">
+                                    <h4 class="text-justify"><a href="{{ post.url }}">{{ post.title }}</a></h4>
+                                    </div>
+                                    <div class="post-thumb" style="width: 294px; height: 176px">
+                                        <a href="{{ post.url }}">
+                                            <img src="{{ post.main_img }}" alt="" width="294px" height="176px">
+                                        </a>
+                                    </div>
+                                    <div class="post-info meta-info-rn">
+                                        <div class="slide">
+                                            <a target="_blank" href="#" class="post-badge">{{ post.rubriques }}</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="post-title-author-details">
+                                    <div class="post-editor-date">
+                                        <div class="post-date">
+                                            <i class="pe-7s-clock"></i> {{ post.date | date: "%b %d, %y" }}
+                                        </div>
+                                    
+                                    </div>
+                                    <p class="text-justify">{{ post.mini_desc | slice: 0, 100}} <a href="{{ post.url }}">Lire la suite...</a></p>
+                                </div>
+                            </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                    <div class="row rn_block">
+                    {% for post in site.posts limit: 3 offset:3 %}  
+                        <div class="col-md-4 col-sm-6 padd">
+                            <div class="post-wrapper wow fadeIn" data-wow-duration="1s">
+                                <!-- image -->
+                                <div class="post-thumb">
+                                    <a href="{{ post.url }}">
+                                        <img class="" src="{{ post.main_img }}" alt="" width="255px" height="150px" >
+                                    </a>
+                                </div>
+                                <div class="post-info meta-info-rn">
+                                    <div class="slide">
+                                        <a target="_blank" href="#" class="post-badge">{{ post.rubriques}}</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="post-title-author-details">
+                                <h5 class="text-justify"><a href="{{ post.url }}">{{ post.title | slice: 0, 49}} ...</a></h5>
+                                <div class="post-editor-date">
+                                    <div class="post-date">
+                                        <i class="pe-7s-clock"></i> {{ post.date | date: "%b %d, %y" }}
+                                    </div>
+                                
+                                </div>
+                            </div>
+                        </div>
+                    {% endfor %}
+                    </div>
+                </section>
+                <!-- Politics Area
+                    ============================================ -->
+                <section class="politics_wrapper">
+                {% assign posts = site.posts | where:"categories", 'Societe'  %}
+                {% assign first_post = posts.first  %}
+                {% assign fifth_post = posts[4]  %}
+                    <h3 class="category-headding ">SOCIETE</h3>
+                    <div class="headding-border"></div>
+                    <div class="row">
+                        <div id="content-slide-2" class="owl-carousel">
+                            <!-- item-1 -->
+                            <div class="item">
+                                <div class="row">
+                                    <!-- main post -->
+                                    <div class="col-sm-6 col-md-6">
+                                        <div class="post-wrapper wow fadeIn" data-wow-duration="2s">
+                                            <!-- post title -->
+                                            <h3><a href="{{ first_post.url }}">{{ first_post.title }}</a></h3>
+                                            <!-- post image -->
+                                            <div class="post-thumb">
+                                                <a href="{{ first_post.url }}">
+                                                    <img src="{{ first_post.main_img }}" alt=""  width="294px" height="176px">
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="post-title-author-details">
+                                            <div class="post-editor-date">
+                                                <!-- post date -->
+                                                <div class="post-date">
+                                                    <i class="pe-7s-clock"></i> {{ first_post.date | date: "%b %d, %y" }}
+                                                </div>
+                                                <!-- post comment -->
+                                            
+                                            </div>
+                                            <p>{{ first_post.mini_desc | slice: 0, 90}} <a href="{{ first_post.url }}">Read more...</a></p>
+                                        </div>
+                                    </div>
+                                    <!-- right side post -->
+                                    <div class="col-sm-6 col-md-6">
+                                        <div class="row rn_block">
+                                        {% for post in posts limit: 4 offset:1 %}
+                                            <div class="col-xs-6 col-md-6 col-sm-6 post-padding">
+                                                <!-- post image -->
+                                                <div class="post-thumb wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+                                                    <a href="{{ post.url }}">
+                                                        <img src="{{ post.main_img }}" alt=""  width="146px" height="86px">
+                                                    </a>
+                                                </div>
+                                                <div class="post-title-author-details">
+                                                    <!-- post image -->
+                                                    <div style="width: 146px; height: 40px;">
+                                                        <h5><a href="{{ post.url }}">{{ post.title | slice: 0, 50}} </a></h5>
+                                                    </div>
+                                                    
+                                                    <div class="post-editor-date">
+                                                        <!-- post date -->
+                                                        <div class="post-date">
+                                                            <i class="pe-7s-clock"></i> {{ post.date | date: "%b %d, %y" }}
+                                                        </div>
+                                                        <!-- post comment -->
+                                                    
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        {% endfor %}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- item-2 -->
+                            <div class="item">
+                                <div class="row">
+                                    <!-- main post -->
+                                    <div class="col-sm-6 col-md-6">
+                                        <div class="post-wrapper wow fadeIn" data-wow-duration="2s">
+                                            <!-- post title -->
+                                            <h3><a href="{{ fifth_post.url }}">{{ fifth_post.title }}</a></h3>
+                                            <!-- post image -->
+                                            <div class="post-thumb">
+                                                <a href="{{ fifth_post.url }}">
+                                                    <img src="{{ fifth_post.main_img }}" alt=""  width="294px" height="176px">
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="post-title-author-details">
+                                            <div class="post-editor-date">
+                                                <!-- post date -->
+                                                <div class="post-date">
+                                                    <i class="pe-7s-clock"></i> {{ fifth_post.date | date: "%b %d, %y" }}
+                                                </div>
+                                                <!-- post comment -->
+                                            
+                                            </div>
+                                            <p>{{ fifth_post.mini_desc | slice: 0, 90}}<a href="{{ fifth_post.url }}">Read more...</a></p>
+                                        </div>
+                                    </div>
+                                    <!-- right side post -->
+                                    <div class="col-sm-6 col-md-6">
+                                        <div class="row rn_block">
+                                        {% for post in posts limit: 4 offset:5 %}
+                                            <div class="col-xs-6 col-md-6 col-sm-6 post-padding">
+                                                <!-- post image -->
+                                                <div class="post-thumb wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+                                                    <a href="{{ post.url }}">
+                                                        <img src="{{ post.main_img }}" alt=""  width="146px" height="86px">
+                                                    </a>
+                                                </div>
+                                                <div class="post-title-author-details">
+                                                    <!-- post image -->
+                                                    <div style="width: 146px; height: 40px;">
+                                                        <h5><a href="{{ post.url }}">{{ post.title | slice: 0, 50}} </a></h5>
+                                                    </div>
+                                                    
+                                                    <div class="post-editor-date">
+                                                        <!-- post date -->
+                                                        <div class="post-date">
+                                                            <i class="pe-7s-clock"></i> {{ post.date | date: "%b %d, %y" }}
+                                                        </div>
+                                                        <!-- post comment -->
+                                                    
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        {% endfor %}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.row -->
+                </section>
+                <!-- /.Politics -->
+                <div class="ads">
+                    <a href="#"><img src="images/pub_large.jpg" class="img-responsive center-block" alt=""></a>
+                </div>
+            </div>

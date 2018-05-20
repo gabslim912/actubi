@@ -1,0 +1,44 @@
+<div class="col-md-4 col-sm-4 left-padding">
+                <!-- right content wrapper -->
+                <div class="input-group search-area">
+                    <!-- search area -->
+                    <input type="text" class="form-control" placeholder="Search articles here ..." name="q">
+                    <div class="input-group-btn">
+                        <button class="btn btn-search" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                    </div>
+                </div>
+                <!-- /.search area -->
+                
+                {% include most_popular.html %}
+                <!-- / tab -->
+                
+                <!-- slider widget -->
+                    <div class="widget-slider-inner">
+                        <h3 class="category-headding ">Buzz</h3>
+                        <div class="headding-border"></div>
+                        <div id="widget-slider" class="owl-carousel owl-theme">
+                            {% assign posts = site.posts | where:"categories", 'Buzz'  %}
+                            <!-- widget item -->
+                            {% for post in posts limit: 3 %}
+                            <div class="item">
+                                <a href="{{ post.url }}"><img src="{{ post.main_img }}" alt=""></a>
+                                <h4><a href="{{ post.url }}">{{ post.title | slice: 0, 50 }} ...</a></h4>
+                                <div class="date">
+                                    <ul>
+                                        <li><a title="" href="#"><span>{{ post.rubriques }}</span></a> --</li>
+                                        <li><a title="" href="#">{{ post.date | date: "%b %d, %y" }}</a></li>
+                                    </ul>
+                                </div>
+                                <p>{{ post.mini_desc | slice: 0, 90}}</p>
+                            </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                
+                
+                <div class="banner-add">
+                    <!-- add -->
+                    <span class="add-title">- Publicite -</span>
+                    <a href="#"><img src="/images/ad-banner.jpg" class="img-responsive center-block" alt=""></a>
+                </div>
+            </div>

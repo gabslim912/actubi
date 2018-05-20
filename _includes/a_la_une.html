@@ -1,0 +1,60 @@
+<section class="news-feed paddb">
+        <div class="container">
+            <div class="row row-margin">
+                <div class="col-xs-12 col-md-6 col-sm-6 col-padding">
+                    <div id="news-feed-carousel" class="owl-carousel owl-theme">
+                    	{% for post in site.posts limit: 3 %}
+                        <div class="item">
+                            <div class="post-wrapper wow fadeIn" data-wow-duration="2s">
+                                <div class="post-thumb img-zoom-in">
+                                    <a href="{{ post.url }}">
+                                        <img class="" src="{{ post.main_img }}" alt="" width="750px" height="400px">
+                                    </a>
+                                </div>
+                                <div class="post-info">
+                                    <span class="post-badge">{{ post.rubriques }}</span>
+                                    <h3 class="post-title"><a href="{{ post.url }}" rel="bookmark">{{ post.title }} </a></h3>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+                <!-- right side post -->
+                <div class="hidden-xs col-md-6 col-sm-6 col-padding-1">
+                    <section class="articale-inner">
+                        <div class="row">
+                        {% for post in site.posts limit: 4 offset:3 %}                            
+                            <div class="col-md-6 col-sm-6 padd" style="margin-bottom: 10px">
+                                <div class="post-wrapper wow fadeIn">
+                                    <!-- image -->
+                                    <div class="post-thumb">
+                                        <a href="{{ post.url }}">
+                                            <img class="" src="{{ post.main_img }}" alt="" height="126px">
+                                        </a>
+                                    </div>
+                                    <div class="post-info meta-info-rn">
+                                        <div class="slide">
+                                            <a target="_blank" href="{{ post.url }}" class="post-badge">{{ post.rubriques }}</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="post-title-author-details" style="height: 45px;">
+                                    <h4><a href="{{ post.url }}">{{ post.title | slice: 0, 50}}</a></h4>
+                                </div>
+                                <div class="post-editor-date">
+                                    <div class="post-date">
+                                        <i class="pe-7s-clock"></i> {{ post.date | date: "%b %d, %y" }}
+                                    </div>
+                                    
+                                </div>
+                            </div>   
+                        {% endfor %}                            
+                        </div>
+
+                    </section>
+                </div>
+            </div>
+        </div>
+    </section>

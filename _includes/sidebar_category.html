@@ -1,0 +1,10 @@
+<h3 class="category-headding ">CATEGORIES</h3>
+<div class="headding-border bg-color-2"></div>
+<div class="cats-widget">
+    <ul>
+        {% for category in site.categories %}
+        {% assign posts = site.posts | where:"categories", category.title  %}
+        <li class=""><a href="{{ category.url }}" title="{{ category.title }}">{{ category.title }}</a> <span>{{ posts.size }}</span></li>
+        {% endfor %}
+    </ul>
+</div>
