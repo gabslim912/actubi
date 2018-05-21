@@ -16,9 +16,7 @@ La plateforme américaine de SVOD a annoncé ce 21 mai 2018 que l'ancien présid
 
 Barack et Michelle Obama vont produire des contenus exclusifs pour Netflix, a annoncé la plateforme dans un tweet surprise ce lundi 21 mai 2018.
 
-[<blockquote class="twitter-tweet" data-lang="fr"><p lang="en" dir="ltr">President Barack Obama and Michelle Obama have entered into a multi-year agreement to produce films and series for Netflix, potentially including scripted series, unscripted series, docu-series, documentaries, and features.</p>&mdash; Netflix US (@netflix) <a href="https://twitter.com/netflix/status/998594451378397185?ref_src=twsrc%5Etfw">21 mai 2018</a></blockquote>]()
-
-[<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>]()
+[https://twitter.com/netflix/status/998594451378397185](https://twitter.com/netflix/status/998594451378397185 "https://twitter.com/netflix/status/998594451378397185")
 
 Le couple présidentiel a créé la société Higher Ground Productions pour produire ces contenus, [a rapporté le New York Times](https://www.nytimes.com/2018/05/21/us/politics/barack-obama-netflix-show.html) quelques minutes plus tard.
 
@@ -31,10 +29,6 @@ Le couple présidentiel a créé la société Higher Ground Productions pour pro
 « _C’est pour cela que Michelle et moi sommes si enthousiastes à l’idée de travailler en partenariat avec Netflix — nous espérons cultiver et agréger des voix inspirantes et talentueuses, capables de générer plus d’empathie et de compréhension entre les gens, et de pouvoir les aider à partager ces histoires avec le monde entier._ »
 
 Dans un communiqué partagé par un autre compte Netflix, le directeur des contenus Ted Sarandos a ajouté : « _Barack et Michelle Obama font partie des figures publiques les plus respectées et reconnues. Ils ont une position unique pour découvrir des histoires de personnes qui font bouger les choses au sein de leur communauté et veulent rendre le monde meilleur._ »
-
-[<blockquote class="twitter-tweet" data-lang="fr"><p lang="en" dir="ltr">“Barack and Michelle Obama are among the world’s most respected and highly-recognized public figures and are uniquely positioned to discover and highlight stories of people who make a difference in their communities and strive to change the world for the better,&quot; - Ted Sarandos <a href="https://t.co/fNw51DfgL5">https://t.co/fNw51DfgL5</a></p>&mdash; We Are Netflix (@WeAreNetflix) <a href="https://twitter.com/WeAreNetflix/status/998594609742626817?ref_src=twsrc%5Etfw">21 mai 2018</a></blockquote>]()
-
-[<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>]()
 
 Cette nouvelle peut sembler surprenante, mais elle fait échos à des rumeurs qui circulaient depuis quelques semaines. Le 8 mars dernier, [le New York Times](https://www.nytimes.com/2018/03/08/us/politics/obama-netflix-shows.html) révélait déjà que Barack Obama était en discussion avec la plateforme de vidéo à la demande par abonnement américaine. « _M. Obama ne compte pas utiliser ces programmes sur Netflix pour critiquer directement le président Trump ou les conservateurs_ », avait affirmé le quotidien américain, citant des sources proches du dossier. Il s’agirait avant tout de produire des « _histoire inspirantes_ ».
 
