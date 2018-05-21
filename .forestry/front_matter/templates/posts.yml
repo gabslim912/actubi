@@ -10,28 +10,46 @@ fields:
 - name: layout
   label: Layout
   type: text
-  hidden: false
-  default: ''
-- name: date
-  label: Date
-  type: datetime
-  hidden: false
-  default: ''
-- name: categories
-  label: Categories
-  type: tag_list
-  hidden: false
-  default: ''
-- name: rubriques
-  label: Rubriques
-  type: text
-  hidden: false
-  default: ''
+  hidden: true
+  default: post
 - name: auteurs
   label: Auteurs
   type: text
   hidden: false
   default: ''
+- type: select
+  name: categories
+  config:
+    source:
+      type: simple
+    options:
+    - International
+    - Politique
+    - Societe
+    - Buzz
+    - Sport
+    - Culture
+    - Tech
+    - Videos
+  label: Categories
+- type: select
+  config:
+    source:
+      type: simple
+    options:
+    - Sante
+    - Religion
+    - People
+    - Musique
+    - Mode
+    - Elections
+    - Education
+    - Economie
+    - Basket
+    - Lutte
+    - Football
+  label: Rubriques
+  name: rubriques
 - name: tags
   label: Tags
   type: tag_list
@@ -45,6 +63,11 @@ fields:
 - name: main_img
   label: Main img
   type: file
+  hidden: false
+  default: ''
+- name: date
+  label: Date
+  type: datetime
   hidden: false
   default: ''
 pages:
