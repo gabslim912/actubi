@@ -16,18 +16,9 @@ La plateforme américaine de SVOD a annoncé ce 21 mai 2018 que l'ancien présid
 
 Barack et Michelle Obama vont produire des contenus exclusifs pour Netflix, a annoncé la plateforme dans un tweet surprise ce lundi 21 mai 2018.
 
-«  _Le président Barack Obama et Michelle Obama ont accepté un contrat sur plusieurs années pour produire des films et des séries pour Netflix »_, affirme le gazouillis, et précise que ces contenus pourront être « _potentiellement des séries de fiction ou non, des documentaires, des séries de documentaires ou des longs-métrages._  »
+<blockquote class="twitter-tweet" data-lang="fr"><p lang="en" dir="ltr">“Barack and Michelle Obama are among the world’s most respected and highly-recognized public figures and are uniquely positioned to discover and highlight stories of people who make a difference in their communities and strive to change the world for the better,&quot; - Ted Sarandos <a href="https://t.co/fNw51DfgL5">https://t.co/fNw51DfgL5</a></p>&mdash; We Are Netflix (@WeAreNetflix) <a href="[https://twitter.com/WeAreNetflix/status/998594609742626817?ref_src=twsrc%5Etfw](https://twitter.com/WeAreNetflix/status/998594609742626817?ref_src=twsrc%5Etfw "https://twitter.com/WeAreNetflix/status/998594609742626817?ref_src=twsrc%5Etfw")">21 mai 2018</a></blockquote>
 
-> [![](https://pbs.twimg.com/profile_images/966125580390252544/Cfnan8Nf_normal.jpg)**Netflix US✔**@netflix](https://twitter.com/netflix)
->
-> President Barack Obama and Michelle Obama have entered into a multi-year agreement to produce films and series for Netflix, potentially including scripted series, unscripted series, docu-series, documentaries, and features.
->
-> [12:00 - 21 mai 2018](https://twitter.com/netflix/status/998594451378397185)
->
-> * [161 k](https://twitter.com/intent/like?tweet_id=998594451378397185 "J'aime")
-> * [44,2 k personnes parlent à ce sujet](https://twitter.com/netflix/status/998594451378397185 "Voir la conversation sur Twitter")
-
-[Informations sur les Publicités Twitter et confidentialité](https://support.twitter.com/articles/20175256 "Informations sur les Publicités Twitter et confidentialité")
+<script async src="[https://platform.twitter.com/widgets.js](https://twitter.com/WeAreNetflix/status/998594609742626817?ref_src=twsrc%5Etfw "https://twitter.com/WeAreNetflix/status/998594609742626817?ref_src=twsrc%5Etfw")" charset="utf-8"></script>
 
 Le couple présidentiel a créé la société Higher Ground Productions pour produire ces contenus, [a rapporté le New York Times](https://www.nytimes.com/2018/05/21/us/politics/barack-obama-netflix-show.html) quelques minutes plus tard.
 
