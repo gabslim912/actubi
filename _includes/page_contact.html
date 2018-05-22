@@ -1,100 +1,118 @@
-<!--Breadcrumbs -->
-        <section class="page-info">
-            <div class="container clearfix">
-                <div class="pull-left">
-                    <h3>Contact</h3>
+<section class="block-inner">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h1>Contact</h1>
+                    <div class="breadcrumbs">
+                        <ul>
+                            <li><i class="pe-7s-home"></i> <a href="/" title="">Accueil</a></li>
+                            <li><a href="#" title="">Contact</a></li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="pull-right">
-                    <ul class="bread-crumb clearfix">
-                        <li><a href="index.html">Home</a></li>
-                        <li>Contact</li>
+            </div>
+        </div>
+    </section>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-sm-offset-3">
+                <div class="contact-title">
+                    <h2>N'hesitez pas a nous contacter pour toute information </h2>
+                    <p>N'hesitez pas a nous contacter pour toute information </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="contact-address">
+                    <!-- Address -->
+                    <h3>Address</h3>
+                    <i class="pe-7s-map-2 top-icon"></i>
+                    <ul>
+                        <li>{{ site.adresse }} </li>
+                        
                     </ul>
                 </div>
             </div>
-        </section>
-        <!--Breadcrumbs   end-->
-
-        <!--page contents-->
-        <section class="contents">
-            <div class="container">
-
-                <!-- contect-page-section -->
-                <div class="contact-section">
-                    <div class="row">
-
-                        <div class="inner-box">
-
-                            <div class="contact-info row">
-                                <ul>
-                                    <li class="col-sm-4">
-                                        <span class="icon flaticon-placeholder"></span>
-                                        <h3>Adresse</h3> {{ site.adresse }}
-                                    </li>
-                                    <li class="col-sm-4">
-                                        <span class="icon fa fa-envelope-o"></span>
-                                        <h3>Email</h3> {{ site.email }}
-                                    </li>
-                                    <li class="col-sm-4">
-                                        <span class="icon flaticon-phone-call"></span>
-                                        <h3>PHONE</h3> {{ site.tel }}
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row clearfix">
-                        <h2 class="titlehd"><span>Envoyez-nous un message</span></h2>
-                        <!--Column-->
-                        <div class="column col-md-7 col-sm-6 col-xs-12">
-
-                            <div class="contact-form default-form">
-                                <form method="post" action="#" id="contact-form" novalidate="novalidate">
-                                    <div class="row">
-                                        <div class="col-md-6 col-sm-12">
-                                            <div class="form-group">
-                                                <input name="username" value="" placeholder="Username" type="text">
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-6 col-sm-12">
-                                            <div class="form-group">
-                                                <input name="email" value="" placeholder="Email" type="email">
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-12 col-sm-12">
-                                            <div class="form-group">
-                                                <input name="phone" value="" placeholder="Phone Number" type="text">
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-12 col-sm-12">
-                                            <div class="form-group">
-                                                <textarea name="message" placeholder="Message"></textarea>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-12 col-sm-12">
-                                            <button type="submit" class="btn-one">ENVOYER</button>
-                                        </div>
-                                    </div>
-                                </form>
-
-                            </div>
-                        </div>
-
-                        <!--Column-->
-                        <div class="column col-md-5 col-sm-6 col-xs-12">
-
-                            <!--google map-->
-                            <div class="map">
-                                <div class="google-map" id="contact-google-map" style="height:345px; width:100%;"></div>
-                            </div>
-                            <!--google map end-->
-
-                        </div>
-
-                    </div>
+            <div class="col-sm-4">
+                <div class="contact-address">
+                    <!-- Phone -->
+                    <h3>Tel</h3>
+                    <i class="pe-7s-headphones top-icon"></i>
+                    <ul>
+                        <li><i class="fa fa-mobile"></i>{{ site.tel }}</li>
+        
+                    </ul>
                 </div>
-             </div>
-        </section>
+            </div>
+            <div class="col-sm-4">
+                <div class="contact-address">
+                    <!-- Email -->
+                    <h3>Email</h3>
+                    <i class="pe-7s-global top-icon"></i>
+                    <ul>
+                        <li><i class="fa fa-envelope-o"></i>{{ site.email }}</li>
+                        <li><i class="fa fa-globe"></i> http://www.revovision.ca</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8">
+                <div class="contact-form-area">
+                    <form>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <span class="input">
+                                        <input class="input_field" type="text" id="input-1">
+                                        <label class="input_label" for="input-1">
+                                            <span class="input_label_content" id="f_name" data-content="First Name">Prenom</span>
+                                </label>
+                                </span>
+                            </div>
+                            <div class="col-sm-6">
+                                <span class="input">
+                                        <input class="input_field" type="text" id="input-2">
+                                        <label class="input_label" for="input-2">
+                                            <span class="input_label_content" id="l_name" data-content="Last Name">Nom</span>
+                                </label>
+                                </span>
+                            </div>
+                            <div class="col-sm-6">
+                                <span class="input">
+                                        <input class="input_field" type="text" id="input-3">
+                                        <label class="input_label" for="input-3">
+                                            <span class="input_label_content" id="emai" data-content="Your Email">Email</span>
+                                </label>
+                                </span>
+                            </div>
+                            <div class="col-sm-6">
+                                <span class="input">
+                                        <input class="input_field" type="text" id="input-4">
+                                        <label class="input_label" for="input-4">
+                                            <span class="input_label_content" id="subject" data-content="Subject">Sujet</span>
+                                </label>
+                                </span>
+                            </div>
+                            <div class="col-sm-12">
+                                <span class="input">
+                                        <textarea class="input_field" id="message"></textarea>
+                                        <label class="input_label" for="message">
+                                            <span class="input_label_content" data-content="Your Email">Message</span>
+                                </label>
+                                </span>
+                                <button type="button" class="btn btn-style">Envoyer</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div id="map"></div>
+            </div>
+        </div>
+    </div>
