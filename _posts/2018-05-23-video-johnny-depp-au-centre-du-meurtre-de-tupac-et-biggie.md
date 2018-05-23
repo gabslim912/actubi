@@ -14,21 +14,6 @@ categories: Culture
 rubriques: People
 auteurs: La redaction
 ---
-[![Konbini](http://www.konbini.com/wp-content/themes/konbini/images/logo_konbini.gif)](http://www.konbini.com/fr)
-
-[![Urgence Famine - Sauvez le Kasaï, faites un don sur GoFundMe.com - #AvecLeKasaï](http://www.konbini.com/wp-content/themes/konbini/images/avec_le_kasai.gif)](http://bit.ly/urgence-kasai)
-
-# Johnny Depp enquête sur les meurtres de Tupac et Biggie dans le trailer de "City of Lies"
-
-par [Rachid Majdoub](http://www.konbini.com/fr/author/rmajdoub/ "Articles par Rachid Majdoub") | 24 hours ago
-
-[facebook](http://www.konbini.com/fr/entertainment-2/johnny-depp-meurtres-tupac-biggie-city-of-lies/# "Facebook")
-
-[twitter](http://www.konbini.com/fr/entertainment-2/johnny-depp-meurtres-tupac-biggie-city-of-lies/# "Twitter")
-
-[mail](http://www.konbini.com/fr/entertainment-2/johnny-depp-meurtres-tupac-biggie-city-of-lies/# "mail")
-
-6\.3K SHARES
 
 **Épaulé par Forest Whitaker, l’acteur incarne le détective Russell Poole, qui a dédié une partie de sa vie à tenter de résoudre les meurtres des deux rappeurs… sans succès, ou presque.**
 
