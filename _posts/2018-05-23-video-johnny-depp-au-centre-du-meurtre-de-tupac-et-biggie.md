@@ -23,9 +23,7 @@ Et pourtant, Russell Poole a passé des années à enquêter sur leurs meurtres,
 
 Cet ancien détective du Los Angeles Police Department sera incarné à l’écran par Johnny Depp, épaulé par Forest Whitaker dans une course à la vérité qui les conduira à révéler un réseau de corruption interminable, connectant des agents du LAPD, des membres de gangs et surtout Death Row Records, dont le boss n’est autre que le manager véreux de 2Pac : Suge Knight.
 
-> ### À lire -> [Pourquoi Diddy et Suge Knight sont responsables de la mort de Tupac et Biggie](http://www.konbini.com/fr/entertainment-2/documentaire-diddy-meurtre-tupac/)
-
-Et quel bonheur de revoir Johnny Depp dans un film noir, sur fond du classique "[You’re Nobody](https://www.youtube.com/watch?v=l4w6q0cxdpU)" de Biggie Smalls. Réalisé par Brad Furman, le drame fait écho à la série de Netflix _Unsolved_ et est adapté par Christian Contreras du livre _Labyrinth_, dans lequel le journaliste Randall Sullivan raconte l’enquête sans fin de Russell Poole, qui aura été à deux doigts de mettre des noms sur les assassins des deux légendes du hip-hop.
+### Et quel bonheur de revoir Johnny Depp dans un film noir, sur fond du classique "[You’re Nobody](https://www.youtube.com/watch?v=l4w6q0cxdpU)" de Biggie Smalls. Réalisé par Brad Furman, le drame fait écho à la série de Netflix _Unsolved_ et est adapté par Christian Contreras du livre _Labyrinth_, dans lequel le journaliste Randall Sullivan raconte l’enquête sans fin de Russell Poole, qui aura été à deux doigts de mettre des noms sur les assassins des deux légendes du hip-hop.
 
 _City of Lies_ sortira en salles le 7 septembre 2018, soit le jour de l’assassinat de Tupac. En attendant, voici son premier trailer (en tête d’article), dévoilé à l’occasion de l’anniversaire de la mort de B.I.G.
 
