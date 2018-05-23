@@ -17,8 +17,6 @@ auteurs: La redaction
 
 **Épaulé par Forest Whitaker, l’acteur incarne le détective Russell Poole, qui a dédié une partie de sa vie à tenter de résoudre les meurtres des deux rappeurs… sans succès, ou presque.**
 
-<iframe width="681" height="383" src="[https://www.youtube.com/embed/_oIgOc2YEPY](https://www.youtube.com/embed/_oIgOc2YEPY "https://www.youtube.com/embed/_oIgOc2YEPY")" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
 Assassiné le 9 mars 1997 à Los Angeles, Christopher Wallace aurait eu 46 ans ce lundi 21 mai 2018. Son meurtre n’a toujours pas été élucidé, au même titre que celui de Tupac Shakur, victime d’un _drive-by shooting_ six mois auparavant dans les rues de Las Vegas. Jadis amis devenus meilleurs ennemis et porte-étendards dans une guerre opposant la côte ouest et la côte est, les deux rappeurs emblématiques ont disparu dans des circonstances troubles, noircies par de nombreuses zones d’ombre jamais éclaircies depuis.
 
 Et pourtant, Russell Poole a passé des années à enquêter sur leurs meurtres, aujourd’hui non résolus. Jusqu’à ce qu’il soit victime d’une crise cardiaque, le 19 août 2015, à la sortie d’un ultime entretien avec le Los Angeles County Sheriff’s Department, aux sujets de Tupac et Biggie justement.
