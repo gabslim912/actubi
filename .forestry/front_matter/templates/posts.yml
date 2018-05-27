@@ -12,11 +12,6 @@ fields:
   type: text
   hidden: true
   default: post
-- name: auteurs
-  label: Auteurs
-  type: text
-  hidden: false
-  default: ''
 - type: select
   name: categories
   config:
@@ -50,6 +45,14 @@ fields:
     - Football
   label: Rubriques
   name: rubriques
+- type: select
+  config:
+    source:
+      type: simple
+    options:
+    - La redaction
+  label: auteurs
+  name: auteurs
 - name: tags
   label: Tags
   type: tag_list
