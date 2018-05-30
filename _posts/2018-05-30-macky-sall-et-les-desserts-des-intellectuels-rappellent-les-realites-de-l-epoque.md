@@ -1,0 +1,44 @@
+---
+title: 'Macky Sall et les desserts: Des intellectuels rappellent les réalités de l’époque'
+layout: post
+date: 2018-05-30 00:00:00 +0000
+categories: Politique
+rubriques: Elections
+auteurs: La redaction
+tags:
+- Macky Sall
+- 'Tirailleurs '
+- desserts
+mini_desc: "« Macky Sall verse dans la banalisation du crime contre l’humanité que
+  fut la colonisation »: disent-ils."
+main_img: "/uploads/macky_sall_tirailleurs.jpg"
+---
+## Le président Macky Sall nous a informé, samedi 26 mai, que les Français sont nos amis car le régiment des tirailleurs sénégalais, durant la colonisation, avait droit à un « dessert » lors des repas dans les casernes, contrairement aux autres Africains.
+
+Il a d’abord factuellement tort : seuls les ressortissants des quatre communes de Dakar, Saint-Louis, Gorée et Rufisque (dont les natifs étaient, d’après la loi Blaise Diagne promulguée en 1916, des citoyens français) avaient droit à une ration alimentaire normale ; les soldats indigènes, majoritaires dans ces régiments, étaient discriminés y compris dans la nourriture et n’avaient droit à aucun dessert.
+
+Le plus grave, cependant, c’est qu’avec son affirmation, le président sénégalais verse soit dans l’apologie soit dans l’atténuation des méfaits du crime contre l’humanité qu’est la colonisation.
+
+En décembre 2016 déjà, alors qu’il procédait à l’inauguration du chantier du train express régional, Macky Sall avait annoncé la couleur. Au milieu de son discours, il disait : _« C’est le lieu de_ [_rendre_](https://conjugaison.lemonde.fr/conjugaison/troisieme-groupe/rendre/ "Conjugaison du verbe rendre") _hommage aux Français qui ont eu la vision de_ [_construire_](https://conjugaison.lemonde.fr/conjugaison/troisieme-groupe/construire/ "Conjugaison du verbe construire") _le chemin de fer Dakar-Saint-Louis puis Dakar-Bamako. »_ Il rendait ainsi hommage à l’ancien colon pour [avoir](https://conjugaison.lemonde.fr/conjugaison/auxiliaire/avoir/ "Conjugaison du verbe avoir") construit, grâce à cet esclavage qu’était l’institution du travail forcé, l’outil ayant servi à l’exploitation des ressources des colonies et à l’asservissement des colonisés.
+
+## Glorification du bourreau
+
+Il faudrait peut-être [expliquer](https://conjugaison.lemonde.fr/conjugaison/premier-groupe/expliquer/ "Conjugaison du verbe expliquer") à Macky Sall ce que fut la colonisation, l’abomination que fut ce système de négation de la dignité humaine. [Vanter](https://conjugaison.lemonde.fr/conjugaison/premier-groupe/vanter/ "Conjugaison du verbe vanter") les mérites de la colonisation, c’est [cautionner](https://conjugaison.lemonde.fr/conjugaison/premier-groupe/cautionner/ "Conjugaison du verbe cautionner") les centaines de milliers d’Africains tués parfois dans une insoutenable barbarie, c’est [accepter](https://conjugaison.lemonde.fr/conjugaison/premier-groupe/accepter/ "Conjugaison du verbe accepter") qu’avec l’argument de la force on peut [dominer](https://conjugaison.lemonde.fr/conjugaison/premier-groupe/dominer/ "Conjugaison du verbe dominer") des peuples et les [soumettre](https://conjugaison.lemonde.fr/conjugaison/troisieme-groupe/soumettre/ "Conjugaison du verbe soumettre") au bon [vouloir](https://conjugaison.lemonde.fr/conjugaison/troisieme-groupe/vouloir/ "Conjugaison du verbe vouloir") de nations plus armées et donc plus puissantes.
+
+La colonisation fut un système inique de prédation des ressources, d’emprisonnements, de mise en esclavage rebaptisé « travail forcé », de viols, d’exécutions sommaires. Elle fut surtout une blessure morale et mentale dont l’Afrique tarde encore à se [relever](https://conjugaison.lemonde.fr/conjugaison/premier-groupe/relever/ "Conjugaison du verbe relever"). On ne peut pas se refaire, se [reconstruire](https://conjugaison.lemonde.fr/conjugaison/troisieme-groupe/reconstruire/ "Conjugaison du verbe reconstruire") et se relever en cinquante ans de deux siècles de négation de sa propre humanité. L’Afrique, pour une très large majorité, demeure dans le traumatisme de la colonisation. Et pour [panser](https://conjugaison.lemonde.fr/conjugaison/premier-groupe/panser/ "Conjugaison du verbe panser") ces blessures, le travail de mémoire qui s’impose ne peut [souffrir](https://conjugaison.lemonde.fr/conjugaison/troisieme-groupe/souffrir/ "Conjugaison du verbe souffrir") la glorification du bourreau.
+
+Macky Sall véhicule les clichés les plus éculés d’une Europe d’extrême droite nostalgique du temps des colonies, ce temps où l’homme blanc soumettait les peuples africains à la force de la baïonnette et prétendait les [civiliser](https://conjugaison.lemonde.fr/conjugaison/premier-groupe/civiliser/ "Conjugaison du verbe civiliser"). Le président sénégalais évoque les mérites de la colonisation comme le courant fasciste européen évoque les routes et le rail pour [justifier](https://conjugaison.lemonde.fr/conjugaison/premier-groupe/justifier/ "Conjugaison du verbe justifier") tout le bien apporté au continent. Il s’agit au mieux d’une méconnaissance – nous pensons que c’est le cas de Macky Sall –, au pire d’un révisionnisme abject.
+
+Encore une fois, toutes les infrastructures érigées par les colons avaient pour objectif unique d’exploiter les ressources africaines et de [permettre](https://conjugaison.lemonde.fr/conjugaison/troisieme-groupe/permettre/ "Conjugaison du verbe permettre") le développement de l’Europe. Et les travaux forcés sous la supervision du fouet ou du fusil étaient de rigueur, avec, à la clé, des milliers de morts par épuisement.
+
+## Inculture et irresponsabilité
+
+C’est toute cette histoire douloureuse que Macky Sall vient [gommer](https://conjugaison.lemonde.fr/conjugaison/premier-groupe/gommer/ "Conjugaison du verbe gommer") par inculture et irresponsabilité. Il vient [souiller](https://conjugaison.lemonde.fr/conjugaison/premier-groupe/souiller/ "Conjugaison du verbe souiller") la mémoire des tirailleurs sénégalais, arrachés à leur famille et projetés sur les champs de bataille pour [servir](https://conjugaison.lemonde.fr/conjugaison/troisieme-groupe/servir/ "Conjugaison du verbe servir") de chair à canon dans des guerres qui n’étaient pas les leurs et auxquelles ils ne comprenaient pas grand-chose. La France, pendant qu’elle combattait au nom de la liberté, niait cette liberté à des millions de gens sur le continent.
+
+Faut-il [rappeler](https://conjugaison.lemonde.fr/conjugaison/premier-groupe/rappeler/ "Conjugaison du verbe rappeler") à Macky Sall les morts en Algérie, au Sénégal, au Cameroun, à Madagascar, pour le [persuader](https://conjugaison.lemonde.fr/conjugaison/premier-groupe/persuader/ "Conjugaison du verbe persuader") de l’horreur de la colonisation ? Faut-il lui [conseiller](https://conjugaison.lemonde.fr/conjugaison/premier-groupe/conseiller/ "Conjugaison du verbe conseiller") de [lire](https://conjugaison.lemonde.fr/conjugaison/troisieme-groupe/lire/ "Conjugaison du verbe lire") Césaire ? Actuellement, le Sénégal culturel vibre à _« l’heure rouge »_ de l’auteur du _Discours sur le colonialisme,_ thème de la biennale d’art contemporain de Dakar. Cette heure qui vante la liberté et l’expression d’une radicalité libératrice d’un passé d’avilissement n’a apparemment pas sonné pour Macky Sall, qui verse dans la banalisation du crime contre l’humanité sous les ricanements d’une flopée de courtisans.
+
+Nous ne sommes pas pour une Afrique qui reste ancrée dans un passé douloureux. Nous prônons un continent debout face à son destin, notamment à travers sa jeunesse. Mais à cette jeunesse, il est important de [tenir](https://conjugaison.lemonde.fr/conjugaison/troisieme-groupe/tenir/ "Conjugaison du verbe tenir") un discours – surtout lorsque ce discours est présidentiel – sans concession sur les affres de cette période de notre histoire. A l’échelle de cette histoire, le « dessert » insignifiant, voire insultant, de Macky Sall dessert le travail de mémoire nécessaire pour [dépasser](https://conjugaison.lemonde.fr/conjugaison/premier-groupe/d%C3%A9passer/ "Conjugaison du verbe dépasser") ce passé douloureux et [aller](https://conjugaison.lemonde.fr/conjugaison/troisieme-groupe/aller/ "Conjugaison du verbe aller") de l’avant. Il n’y a pas de respect dans l’asservissement, comme il n’y a pas d’empathie dans le meurtre de masse ni d’amitié dans l’esclavage.
+
+Macky Sall a sali la mémoire de nos morts. Il a choisi la légèreté d’un discours déboutonné là où, par sa position et par l’importance du sujet, la gravité et la dignité s’imposaient. L’Histoire ne manquera pas de le [retenir](https://conjugaison.lemonde.fr/conjugaison/troisieme-groupe/retenir/ "Conjugaison du verbe retenir") à son passif.
+
+Source: Le Monde Afrique
