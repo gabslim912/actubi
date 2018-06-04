@@ -31,7 +31,7 @@
                                         <!-- post comment -->
                                     
                                     </div>
-                                    <p>{{ first_post.mini_desc | slice: 0, 90}} <a href="{{ first_post.url }}">Voir plus...</a></p>
+                                    <p style="width: auto; height: 60px;">{{ first_post.mini_desc | slice: 0, 120}} <a href="{{ first_post.url }}">Voir plus...</a></p>
                                 </div>
                                 {% for post in posts limit: 3 offset:1 %}
                                 <div class="box-item wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
@@ -80,7 +80,7 @@
                                         <!-- post comment -->
                                     
                                     </div>
-                                    <p>{{ first_post.mini_desc | slice: 0, 90}} <a href="{{ first_post.url }}">Voir plus...</a></p>
+                                    <p style="width: auto; height: 60px;">{{ first_post.mini_desc | slice: 0, 120}} <a href="{{ first_post.url }}">Voir plus...</a></p>
                                 </div>
                                 {% for post in posts limit: 3 offset:1 %}
                                 <div class="box-item wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
