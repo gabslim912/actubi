@@ -15,17 +15,6 @@ mini_desc: Laurent devrait être en CE2. Mais ce garçon de huit, originaire d'O
   surdouée.
 main_img: "/uploads/enfant_huit_ans_obtient_son_bac.jpg"
 ---
-Un garçon de huit ans obtient son bac en Belgique. (MAXPPP)
-
-![avatar](https://www.francetvinfo.fr/skin/dist/www/img/avatar/francetv-info-f3891f72e2.png =40x40)franceinfoFrance Télévisions
-
-Mis à jour le 29/06/2018 | 23:05  
-publié le 29/06/2018 | 23:05
-
-**149**PARTAGESPartagerTwitterPartagerEnvoyer
-
-LA NEWSLETTER ACTUNous la préparons pour vous chaque matin
-
 Laurent devrait être en CE2. Mais ce garçon de huit, originaire d'Ostende (Belgique) a déjà décroché son diplôme d'études secondaires, l'équivalent de notre baccalauréat, rapporte la RTBF, jeudi 28 juin. Laurent est doté d'un QI exceptionnel de 145, bien au-delà du seuil 130, à partir duquel on considère une personne comme surdouée.
 
 Selon son père, dès le plus jeune âge, leur fils s'ennuyait avec les autres enfants. "_Pour lui, c'était difficile de jouer avec les autres. Il regardait comment cela se passait. Il faisait les choses différemment. Il ne savait pas quoi faire des jouets_", a-t-il développé.
