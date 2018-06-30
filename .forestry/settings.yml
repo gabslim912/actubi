@@ -3,7 +3,28 @@ new_page_extension: md
 auto_deploy: true
 admin_path: "/admin"
 webhook_url: 
-collections: 
+collections:
+- path: _categories
+  label: Categories
+  create: all
+- path: _rubriques
+  label: Rubriques
+  create: all
+- path: _sliders
+  label: Sliders
+  create: all
+- path: _auteurs
+  label: Auteurs
+  create: all
+- path: _posts
+  label: Posts
+  create: all
+- path: _uploads
+  label: Uploads
+  create: all
+- path: ''
+  label: Pages
+  create: all
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
