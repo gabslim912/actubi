@@ -11,7 +11,7 @@ tags:
 - classement fifa
 mini_desc: Pour le classement Fifa mondial de ce mois de décembre, le Sénégal caracole
   en tête du football africain. 
-main_img: "/uploads/youssouf_sabaly.jpg"
+main_img: "/uploads/senegal-final.jpg"
 
 ---
 Pour le classement Fifa mondial de ce mois de décembre, le Sénégal caracole en tête du football africain.  Il est suivi par la Tunisie et le Maroc qui complète le podium.
