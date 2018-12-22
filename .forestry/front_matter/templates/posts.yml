@@ -69,12 +69,6 @@ fields:
   type: file
   hidden: false
   default: ''
-- type: datetime
-  name: date
-  label: date
-  default: ''
-  config:
-    display_utc: true
 pages:
 - _posts/2018-06-30-automobile-le-premier-vehicule-made-in-rwanda-est-sorti-d-usine.md
 - _posts/2018-06-28-joe-jackson-pere-de-michael-jackson-est-mort.md
