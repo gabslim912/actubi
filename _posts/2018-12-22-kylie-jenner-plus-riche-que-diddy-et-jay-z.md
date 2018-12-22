@@ -1,6 +1,6 @@
 ---
 title: KYLIE JENNER PLUS RICHE QUE DIDDY ET JAY-Z
-layout: ''
+layout: post
 categories: Buzz
 rubriques: People
 auteurs: La redaction
