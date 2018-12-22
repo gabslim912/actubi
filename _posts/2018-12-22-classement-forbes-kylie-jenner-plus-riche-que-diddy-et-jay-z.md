@@ -14,7 +14,7 @@ mini_desc: 'Classement Forbes : Kylie Jenner plus riche que Diddy et Jay-Z Comme
   année, Forbes dévoile la liste des célébrités les plus riches. L’occasion de s’apercevoir
   que Kylie Jenner coiffe au poteau aussi bien Diddy que Jay-Z.'
 main_img: "/uploads/kylie_jenner_jay_z.jpg"
-date: 2018-12-22 00:00:00 +0000
+date: 2018-12-22 00:27:00 +0000
 
 ---
 ## Kylie Jenner, mieux lotie que Diddy et Jay-Z
