@@ -1,5 +1,6 @@
 ---
 title: KYLIE JENNER PLUS RICHE QUE DIDDY ET JAY-Z
+date: 2018-12-22 08:04:10 +0000
 layout: post
 categories: Buzz
 rubriques: People
@@ -13,7 +14,7 @@ tags:
 mini_desc: 'Classement Forbes : Kylie Jenner plus riche que Diddy et Jay-Z Comme chaque
   année, Forbes dévoile la liste des célébrités les plus riches. '
 main_img: "/uploads/kylie_jenner_jay_z.jpg"
-date: 2018-12-22 08:04:10 +0000
+
 
 ---
 ## Kylie Jenner, mieux lotie que Diddy et Jay-Z
