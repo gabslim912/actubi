@@ -69,10 +69,9 @@ fields:
   type: file
   hidden: false
   default: ''
-- name: date
-  label: Date
-  type: datetime
-  hidden: false
+- type: datetime
+  name: date
+  label: date
   default: ''
 pages:
 - _posts/2018-06-30-automobile-le-premier-vehicule-made-in-rwanda-est-sorti-d-usine.md
