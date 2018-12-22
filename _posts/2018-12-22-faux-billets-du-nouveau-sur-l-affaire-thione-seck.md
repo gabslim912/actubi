@@ -10,7 +10,7 @@ tags:
 mini_desc: En 2015, Thione Ballago Seck et Alaye Djité étaient mis aux arrêts après
   une filature d’un (1) mois.
 main_img: "/uploads/thione_seck_faux_billets.png"
-date: 2018-12-22 00:00:00 +0000
+date: 2018-12-22 00:26:00 +0000
 
 ---
 ## La jurisprudence née de l’affaire Ngaaka Blindé vient de sauver Thione Seck et son présumé complice Alaye Djité. Mêlés dans une affaire de trafic de faux billets, le lead vocal du Raam Daan et le ressortissant malien viennent d’être renvoyés en correctionnelle par le juge d’instruction qui a délivré son ordonnance de renvoi.
