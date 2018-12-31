@@ -8,5 +8,6 @@ description: Écoutez la radio Walf FM en direct en streaming 24h/24, cette radi
 radio_url: http://206.190.135.28:8036/stream
 image: "/uploads/walf_fm_en_ligne.png"
 date: 2018-12-31 18:26:53 +0000
+layout: radio
 
 ---
