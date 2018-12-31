@@ -15,3 +15,5 @@ fields:
 - type: file
   name: image
   label: image
+pages:
+- _radios/sud-fm-radio.md
