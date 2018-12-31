@@ -70,6 +70,7 @@ fields:
   hidden: false
   default: ''
 pages:
+- _posts/maradona-soutient-kalidou-koulibaly-victime-de-racisme-photos.md
 - _posts/2018-06-03-apple-iphone-voici-le-design-de-la-prochaine-generation.md
 - _posts/2018-06-03-cristiano-ronaldo-souhaite-quitter-le-real-madrid.md
 - _rubriques/fait-divers.md
