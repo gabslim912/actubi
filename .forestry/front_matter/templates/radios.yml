@@ -20,6 +20,7 @@ fields:
   label: layout
   default: radio
 pages:
+- _radios/zik-fm.md
 - _radios/sud-fm-radio.md
 - _radios/walf-fm.md
 - _radios/rfm.md
