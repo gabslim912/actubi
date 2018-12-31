@@ -1,0 +1,131 @@
+
+    <div class="container">
+        <div class="row">
+        	<div class="col-sm-8">
+        	
+        	{% for radio in site.radios %}
+        		<div class="col-sm-4">
+	                <div class="post-style1">
+	                    <div class="post-wrapper wow fadeIn" data-wow-duration="1s">
+	                        <!-- post image -->
+	                        <a href="{{ radio.url }}" target="blank"><img src="{{ radio.image }}" class="" alt=""></a>
+	                        
+	                    </div>
+	                    
+	                </div>
+	            </div>
+	        {% endfor %}
+        	</div>
+            
+            <aside class="col-sm-4 left-padding">
+                <div class="input-group search-area c-search">
+                    <!-- search area -->
+                    <input type="text" class="form-control" placeholder="Rechercher un article ..." name="q">
+                    <div class="input-group-btn">
+                        <button class="btn btn-search" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                    </div>
+                </div>
+                <!-- social icon -->
+                <div class="banner-add">
+                    <!-- add -->
+                    <span class="add-title">- Publicite -</span>
+                    <a href="#"><img src="/images/pub_carre.png" class="img-responsive center-block" alt=""></a>
+                </div>
+                <!-- /.social icon -->
+                <div class="tab-inner">
+                    <ul class="tabs">
+                        <li><a href="#">Les + POPULAIRES</a></li>
+                        <li><a href="#">LES + VUES</a></li>
+                    </ul>
+                    <hr>
+                    <!-- tabs -->
+                    <div class="tab_content">
+                        <div class="tab-item-inner">
+                        {% for post in site.posts limit: 4 %}
+                            <div class="box-item">
+                                <div class="img-thumb">
+                                    <a href="{{ post.url }}" rel="bookmark"><img class="entry-thumb" src="{{ post.main_img }}" alt="" height="80" width="90"></a>
+                                </div>
+                                <div class="item-details">
+                                    <h6 class="sub-category-title bg-color-1">
+                                            <a href="{{ post.url }}">{{ post.rubriques }}</a>
+                                        </h6>
+                                    <h3 class="td-module-title"><a href="#">{{ post.title | slice: 0, 50}} ...</a></h3>
+                                    <div class="post-editor-date">
+                                        <!-- post date -->
+                                        <div class="post-date">
+                                            <i class="pe-7s-clock"></i> {{ post.date | date: "%b %d, %y" }}
+                                        </div>
+                                        <!-- post comment 
+                                        <div class="post-author-comment"><i class="pe-7s-comment"></i> 13 </div>-->
+                                    </div>
+                                </div>
+                            </div>
+                        {% endfor %}
+                        </div>
+                        <!-- / tab item -->
+                        <div class="tab-item-inner">
+                        {% for post in site.posts limit: 4 offset:5 %}
+                            <div class="box-item">
+                                <div class="img-thumb">
+                                    <a href="{{ post.url }}" rel="bookmark"><img class="entry-thumb" src="{{ post.main_img }}" alt="" height="80" width="90"></a>
+                                </div>
+                                <div class="item-details">
+                                    <h6 class="sub-category-title bg-color-5">
+                                            <a href="{{ post.url }}">{{ post.rubriques }}</a>
+                                        </h6>
+                                    <h3 class="td-module-title"><a href="#">{{ post.title | slice: 0, 50}} ...</a></h3>
+                                    <div class="post-editor-date">
+                                        <!-- post date -->
+                                        <div class="post-date">
+                                            <i class="pe-7s-clock"></i> {{ post.date | date: "%b %d, %y" }}
+                                        </div>
+                                        <!-- post comment 
+                                        <div class="post-author-comment"><i class="pe-7s-comment"></i> 13 </div>-->
+                                    </div>
+                                </div>
+                            </div>
+                        {% endfor %}
+                        </div>
+                        <!-- / tab item -->
+                    </div>
+                    <!-- / tab_content -->
+                </div>
+                <!-- / tab -->
+                
+                <!-- comments -->
+                
+                <!-- slider widget -->
+                <div class="fb-page" data-href="https://www.facebook.com/Actubicom-1597282660369524/" data-tabs="timeline" data-width="327" data-height="326" data-small-header="false" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Actubicom-1597282660369524/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Actubicom-1597282660369524/">Actubi.com</a></blockquote></div>
+                    <!-- /.flicker widget -->
+            </aside>
+        </div>
+        <!-- pagination -->
+        <div class="container">
+            <div class="row">
+                <!--<div class="col-sm-12">
+                    <ul class="pagination">
+                        <li>
+                            <a href="#" class="prev">
+                                <i class="pe-7s-angle-left"></i>
+                            </a>
+                        </li>
+                        <li> <a href="#">1</a></li>
+                        <li> <a href="#" class="active">2</a></li>
+                        <li> <a href="#">3</a></li>
+                        <li> <a href="#">4</a></li>
+                        <li> ... </li>
+                        <li> <a href="#">15</a></li>
+                        <li>
+                            <a href="#" class="next"> <i class="pe-7s-angle-right"></i></a>
+                        </li>
+                    </ul>
+                </div>-->
+                <div class="col-sm-12">
+                    <div class="banner">
+                        <img src="/images/pub_large.jpg" class="img-responsive center-block" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

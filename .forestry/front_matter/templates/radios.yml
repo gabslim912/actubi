@@ -10,7 +10,7 @@ fields:
   name: description
   label: description de la radio
 - type: text
-  name: url
+  name: radio_url
   label: url
 - type: file
   name: image

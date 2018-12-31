@@ -11,6 +11,9 @@ collections:
   rubriques:
     title: Rubriques
     output: true
+  radios:
+    title: Radios
+    output: true
   sliders:
     title: Sliders
     output: true
@@ -33,10 +36,11 @@ facebook_url: https://facebook.com/Actubicom-1597282660369524
 googleplus_url: https://googleplus.com
 github_username: jekyll
 markdown: kramdown
-gems:
+plugins:
 - jekyll-feed
 - jekyll/tagging
 - jekyll-tagging-related_posts
+- jekyll-seo-tag
 exclude:
 - Gemfile
 - Gemfile.lock

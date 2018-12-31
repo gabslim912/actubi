@@ -1,0 +1,57 @@
+<div class="container">
+        <div class="row">
+            <div class="col-sm-8">
+                <!--Post list-->
+                <div class="post-style2 wow fadeIn" data-wow-duration="1s">
+                    <a href="#"><img src="{{ page.image }}" class="" alt="" ></a>
+                    <div class="post-style2-detail">
+                        <h3> Ecoutez la radio {{ page.title }} en direct!</h3>
+                        <p class="text-justify">{{ page.description}}</p>
+                        
+                    </div>
+                </div>
+                <audio width="713" height="48" controls="controls" autoplay="autoplay"><source src="{{ page.radio_url }}" type="audio/mpeg"/>Your browser does not support HTML5 audio. Please update your browser to view this media content.</audio>
+                <br><br>
+                <div style="margin-top: 10px;">
+                    <ul>
+                        <div class="fb-like" data-href="https://www.facebook.com/Actubicom-1597282660369524/" data-layout="button" data-action="like" data-size="large" data-show-faces="false" data-share="false"></div>
+
+                        <div class="fb-share-button" data-href="{{ page.url }}" data-layout="button" data-size="large" data-mobile-iframe="true"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | url_encode }}&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Partager</a></div>                               
+                    </ul>
+                </div>
+                <br><br>
+                <!-- /.social icon -->
+                
+                <div class="comments-container">
+                    <h3 class="category-headding ">LAISSER UN COMMENTAIRE</h3>
+                    <div class="headding-border"></div>
+                    <div class="fb-comments" data-href="{{ page.url | absolute_url  }}"  data-width="684" data-numposts="5"></div>
+                </div>
+            </div>
+       
+
+            <div class="col-sm-4 left-padding">
+                <aside class="sidebar">
+                    <div class="input-group search-area">
+                        <!-- search area -->
+                        <input type="text" class="form-control" placeholder="Trouver un article ..." name="q">
+                        <div class="input-group-btn">
+                            <button class="btn btn-search" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                        </div>
+                    </div>
+                    <!-- /.search area -->
+                    <div class="banner-add">
+                        <!-- add -->
+                        <span class="add-title">- Advertisement -</span>
+                        <a href="#"><img src="/images/ad-banner.jpg" class="img-responsive center-block" alt=""></a>
+                    </div>
+                    {% include most_popular.html %}
+                    <!-- / tab -->
+                    <!-- comments -->
+                    {% include sidebar_facebook.html %}
+                    <!-- slider widget -->
+                    {% include sidebar_category.html %}
+                </aside>
+            </div>
+        </div>
+    </div>

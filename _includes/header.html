@@ -25,6 +25,9 @@
                         <a href="{{ category.url }}">{{ category.title }}</a>
                     </li>
                     {% endfor %}
+                    <li>
+                        <a href="/radios">RADIO EN DIRECT</a>
+                    </li>
                     
                     <!-- social icon -->
                     <li>
@@ -70,17 +73,18 @@
     <div class="top_header hidden-xs">
         <div class="container">
             <div class="row">
-                <div class="col-sm-4 col-md-3">
+                <div class="col-sm-4 col-md-6">
                     <div class="top_header_menu_wrap">
                         <ul class="top-header-menu">
                             <li><a href="http://www.senseries.com/" target="_blank" >SERIES TV</a></li>
                             <li><a href="http://www.snzik.com/" target="_blank" >MUSIQUE</a></li>                            
                             <li><a href="/contact" target="_blank" >CONTACT</a></li>
+                            <li><a href="/radios" target="_blank">RADIO EN DIRECT</a></li>
                         </ul>
                     </div>
                 </div>
                 <!--breaking news-->
-                <div class="col-sm-8 col-md-7">
+                <div class="col-sm-8 col-md-6">
                     <div class="newsticker-inner">
                         <ul class="newsticker">
                         {% for post in site.posts limit: 5 %}
@@ -94,7 +98,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-2">
+                <!--<div class="col-sm-12 col-md-2">
                     <div class="top_header_icon">
                         
                         <span class="top_header_icon_wrap">
@@ -111,10 +115,10 @@
                             </span>
                         <span class="top_header_icon_wrap">
                                 <a target="_blank" href="{{ site.youtube_url }}" title="Youtube"><i class="fa fa-youtube"></i></a>
-                            </span>-->
+                            </span>-
                        
                     </div>
-                </div>
+                </div>-->
             </div>
         </div>
     </div>
@@ -131,7 +135,7 @@
                 </div>
                 <div class="col-xs-8 col-md-8 col-sm-8 hidden-xs">
                     <div class="header-banner">
-                        <a href="#"><img class="td-retina img-responsive" src="/images/pub_large_gif.gif" alt="" style="width: 728px; height: 90px;"></a>
+                        <a href="/radios"><img class="td-retina img-responsive" src="/images/radio_direct_actubi.png" alt="" style="width: 728px; height: 90px;"></a>
                     </div>
                 </div>
             </div>
@@ -158,7 +162,10 @@
                         </ul>
                         -->
                     </li> 
-                {% endfor %}                  
+                {% endfor %}  
+                <li>
+                        <a href="/radios" class="category04 text-uppercase">RADIO EN DIRECT</a>
+                    </li>                
                 </ul>
             </div>
             <!-- navbar-collapse -->
