@@ -9,6 +9,8 @@ sections:
   label: Radios
   create: all
   match: "**/*"
+  templates:
+  - radios
 - type: jekyll-pages
   label: Pages
   create: all
