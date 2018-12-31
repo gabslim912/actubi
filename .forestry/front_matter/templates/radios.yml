@@ -1,0 +1,17 @@
+---
+label: Radios
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  name: title
+  label: Nom de la radio
+- type: textarea
+  name: description
+  label: description de la radio
+- type: text
+  name: url
+  label: url
+- type: file
+  name: image
+  label: image
