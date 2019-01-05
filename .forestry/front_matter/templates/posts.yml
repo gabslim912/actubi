@@ -44,6 +44,8 @@ fields:
     - Basket
     - Lutte
     - Football
+    - Faits Divers
+    - International
   label: Rubriques
   name: rubriques
 - type: select
