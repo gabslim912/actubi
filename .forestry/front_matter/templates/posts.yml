@@ -46,6 +46,7 @@ fields:
     - Football
     - Faits Divers
     - International
+    - Divertissement
   label: Rubriques
   name: rubriques
 - type: select
