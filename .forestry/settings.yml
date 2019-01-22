@@ -42,6 +42,8 @@ sections:
 - type: jekyll-posts
   label: Posts
   create: all
+  templates:
+  - i-m-back-l-annonce-qui-a-chamboule-la-nba
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
