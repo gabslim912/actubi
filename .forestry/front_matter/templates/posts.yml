@@ -47,6 +47,7 @@ fields:
     - Faits Divers
     - International
     - Divertissement
+    - technologie
   label: Rubriques
   name: rubriques
 - type: select
