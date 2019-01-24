@@ -13,9 +13,9 @@ main_img: "/uploads/guin_theuss_apres_opération.png"
 date: 2019-01-24 22:23:49 +0000
 
 ---
-# (08 Photos) Tentative de meurtre : Guin Thieuss après son opération maxillo-faciale
+Mamadou Kamité plus connu sous le nom Guin Thieuss était il y a quelque temps dans un état critique. L’ancien présentateur de la RTS qui est en conflit avec Thione Seck, Wally Seck et Aziza avait échappé de justesse à une « tentative de meurtre ». Voici des clichés de lui tout juste après son opération maxillo-faciale
 
-Mamadou Kamité plus connu sous le nom Guin Thieuss était il y a quelque temps dans un état critique. L’ancien présentateur de la RTS qui est en conflit avec Thione Seck, Wally Seck et Aziza avait échappé de justesse à une « tentative de meurtre ». Voici des clichés de lui tout juste après son opération maxillo-faciale.  
+  
 ![](https://dakar92.com/wp-content/uploads/2019/01/guin-thieuss2.jpg =540x960)
 
 ![](https://dakar92.com/wp-content/uploads/2019/01/guin-thieuss1.jpg =540x960)  
