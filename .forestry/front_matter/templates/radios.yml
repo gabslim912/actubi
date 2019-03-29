@@ -1,7 +1,6 @@
 ---
 label: Radios
 hide_body: false
-is_partial: false
 fields:
 - type: text
   name: title
@@ -20,9 +19,9 @@ fields:
   label: layout
   default: radio
 pages:
-- _radios/zik-fm.md
-- _radios/sud-fm-radio.md
-- _radios/walf-fm.md
-- _radios/rfm.md
-- _radios/iradio-fm-90-3.md
 - _radios/lamp-fall-fm.md
+- _radios/iradio-fm-90-3.md
+- _radios/zik-fm.md
+- _radios/rfm.md
+- _radios/walf-fm.md
+- _radios/sud-fm-radio.md
