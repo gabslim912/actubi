@@ -38,9 +38,6 @@ github_username: jekyll
 markdown: kramdown
 plugins:
 - jekyll-feed
-- jekyll/tagging
-- jekyll-tagging-related_posts
-- jekyll-seo-tag
 exclude:
 - Gemfile
 - Gemfile.lock
