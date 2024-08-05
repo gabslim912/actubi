@@ -67,12 +67,12 @@
                         <div class="post-wrapper wow fadeIn" data-wow-duration="1s">
                             <!-- post title -->
                             <div style="width: 326px; height: 45px; margin-bottom: 5px;">
-                                <h3 class="text-justify"><a href="{{ first_post.url }}">{{ first_post.title }}</a></h3>
+                                <h3 class="text-justify"><a href="/actubi{{ first_post.url }}">{{ first_post.title }}</a></h3>
                             </div>
                             <!-- post image -->
                             <div class="post-thumb">
-                                <a href="{{ first_post.url }}">
-                                    <img src="{{ first_post.main_img }}" class="" alt="" width="326px" height="226px">
+                                <a href="/actubi{{ first_post.url }}">
+                                    <img src="/actubi{{ first_post.main_img }}" class="" alt="" width="326px" height="226px">
                                 </a>
                             </div>
                         </div>
@@ -85,7 +85,7 @@
                                 <!-- post comment -->
                                 
                             </div>
-                            <p style="width: auto; height: 100px">{{ first_post.mini_desc | slice: 0, 90}}<a href="{{ first_post.url }}"> Voir plus...</a></p>
+                            <p style="width: auto; height: 100px">{{ first_post.mini_desc | slice: 0, 90}}<a href="/actubi{{ first_post.url }}"> Voir plus...</a></p>
                         </div>
                     </div>
                 </div>
