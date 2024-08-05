@@ -10,7 +10,7 @@
         {% for post in site.posts limit: 4 %}
             <div class="box-item">
                 <div class="img-thumb">
-                    <a href="{{ post.url }}" rel="bookmark"><img class="entry-thumb" src="{{ post.main_img }}" alt="" height="80" width="90"></a>
+                    <a href="{{ post.url }}" rel="bookmark"><img class="entry-thumb" src="/actubi{{ post.main_img }}" alt="" height="80" width="90"></a>
                 </div>
                 <div class="item-details">
                     <h6 class="sub-category-title bg-color-1">
@@ -34,7 +34,7 @@
         {% for post in site.posts limit: 4 offset:5 %}
             <div class="box-item">
                 <div class="img-thumb">
-                    <a href="{{ post.url }}" rel="bookmark"><img class="entry-thumb" src="{{ post.main_img }}" alt="" height="80" width="90"></a>
+                    <a href="{{ post.url }}" rel="bookmark"><img class="entry-thumb" src="/actubi{{ post.main_img }}" alt="" height="80" width="90"></a>
                 </div>
                 <div class="item-details">
                     <h6 class="sub-category-title bg-color-5">

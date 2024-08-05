@@ -22,7 +22,7 @@
 	                <div class="post-style1">
 	                    <div class="post-wrapper wow fadeIn" data-wow-duration="1s">
 	                        <!-- post image -->
-	                        <a href="{{ post.url }}"><img src="{{ post.main_img }}" class="" alt="" width="312px" height="208px"></a>
+	                        <a href="{{ post.url }}"><img src="/actubi{{ post.main_img }}" class="" alt="" width="312px" height="208px"></a>
 	                        <div class="post-info meta-info-rn">
 	                            <div class="slide">
 	                                <a target="_blank" href="#" class="post-badge ">{{ post.rubriques }}</a>
@@ -60,7 +60,7 @@
                 <div class="banner-add">
                     <!-- add -->
                     <span class="add-title">- Publicite -</span>
-                    <a href="#"><img src="/images/pub_carre.png" class="img-responsive center-block" alt=""></a>
+                    <a href="#"><img src="/actubi/images/pub_carre.png" class="img-responsive center-block" alt=""></a>
                 </div>
                 <!-- /.social icon -->
                 <div class="tab-inner">
@@ -75,7 +75,7 @@
                         {% for post in site.posts limit: 4 %}
                             <div class="box-item">
                                 <div class="img-thumb">
-                                    <a href="{{ post.url }}" rel="bookmark"><img class="entry-thumb" src="{{ post.main_img }}" alt="" height="80" width="90"></a>
+                                    <a href="{{ post.url }}" rel="bookmark"><img class="entry-thumb" src="/actubi{{ post.main_img }}" alt="" height="80" width="90"></a>
                                 </div>
                                 <div class="item-details">
                                     <h6 class="sub-category-title bg-color-1">
@@ -99,7 +99,7 @@
                         {% for post in site.posts limit: 4 offset:5 %}
                             <div class="box-item">
                                 <div class="img-thumb">
-                                    <a href="{{ post.url }}" rel="bookmark"><img class="entry-thumb" src="{{ post.main_img }}" alt="" height="80" width="90"></a>
+                                    <a href="{{ post.url }}" rel="bookmark"><img class="entry-thumb" src="/actubi{{ post.main_img }}" alt="" height="80" width="90"></a>
                                 </div>
                                 <div class="item-details">
                                     <h6 class="sub-category-title bg-color-5">
@@ -154,7 +154,7 @@
                 </div>-->
                 <div class="col-sm-12">
                     <div class="banner">
-                        <img src="/images/pub_large.jpg" class="img-responsive center-block" alt="">
+                        <img src="/actubi/images/pub_large.jpg" class="img-responsive center-block" alt="">
                     </div>
                 </div>
             </div>
