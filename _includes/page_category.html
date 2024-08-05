@@ -22,7 +22,7 @@
 	                <div class="post-style1">
 	                    <div class="post-wrapper wow fadeIn" data-wow-duration="1s">
 	                        <!-- post image -->
-	                        <a href="{{ post.url }}"><img src="/actubi{{ post.main_img }}" class="" alt="" width="312px" height="208px"></a>
+	                        <a href="/actubi{{ post.url }}"><img src="/actubi{{ post.main_img }}" class="" alt="" width="312px" height="208px"></a>
 	                        <div class="post-info meta-info-rn">
 	                            <div class="slide">
 	                                <a target="_blank" href="#" class="post-badge ">{{ post.rubriques }}</a>
@@ -31,7 +31,7 @@
 	                    </div>
 	                    <!-- post title -->
 	                    <div style="height: 35px">
-	                    	<h4><a href="{{ post.url }}">{{ post.title | slice: 0, 40}}</a></h4>
+	                    	<h4><a href="/actubi{{ post.url }}">{{ post.title | slice: 0, 40}}</a></h4>
 	                    </div>
 	                    <div class="post-title-author-details">
 	                        <div class="date">
@@ -41,7 +41,7 @@
 	                                <li><a title="" href="#"><span>27 Comments</span></a></li>
 	                            </ul>
 	                        </div>
-	                        <p>{{ post.mini_desc | slice: 0, 70}}  <a href="{{ post.url }}">Read more...</a></p>
+	                        <p>{{ post.mini_desc | slice: 0, 70}}  <a href="/actubi{{ post.url }}">Read more...</a></p>
 	                    </div>
 	                </div>
 	            </div>
@@ -75,11 +75,11 @@
                         {% for post in site.posts limit: 4 %}
                             <div class="box-item">
                                 <div class="img-thumb">
-                                    <a href="{{ post.url }}" rel="bookmark"><img class="entry-thumb" src="/actubi{{ post.main_img }}" alt="" height="80" width="90"></a>
+                                    <a href="/actubi{{ post.url }}" rel="bookmark"><img class="entry-thumb" src="/actubi{{ post.main_img }}" alt="" height="80" width="90"></a>
                                 </div>
                                 <div class="item-details">
                                     <h6 class="sub-category-title bg-color-1">
-                                            <a href="{{ post.url }}">{{ post.rubriques }}</a>
+                                            <a href="/actubi{{ post.url }}">{{ post.rubriques }}</a>
                                         </h6>
                                     <h3 class="td-module-title"><a href="#">{{ post.title | slice: 0, 50}} ...</a></h3>
                                     <div class="post-editor-date">
@@ -99,11 +99,11 @@
                         {% for post in site.posts limit: 4 offset:5 %}
                             <div class="box-item">
                                 <div class="img-thumb">
-                                    <a href="{{ post.url }}" rel="bookmark"><img class="entry-thumb" src="/actubi{{ post.main_img }}" alt="" height="80" width="90"></a>
+                                    <a href="/actubi{{ post.url }}" rel="bookmark"><img class="entry-thumb" src="/actubi{{ post.main_img }}" alt="" height="80" width="90"></a>
                                 </div>
                                 <div class="item-details">
                                     <h6 class="sub-category-title bg-color-5">
-                                            <a href="{{ post.url }}">{{ post.rubriques }}</a>
+                                            <a href="/actubi{{ post.url }}">{{ post.rubriques }}</a>
                                         </h6>
                                     <h3 class="td-module-title"><a href="#">{{ post.title | slice: 0, 50}} ...</a></h3>
                                     <div class="post-editor-date">

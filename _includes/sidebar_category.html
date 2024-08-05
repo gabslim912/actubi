@@ -4,7 +4,7 @@
     <ul>
         {% for category in site.categories %}
         {% assign posts = site.posts | where:"categories", category.title  %}
-        <li class=""><a href="{{ category.url }}" title="{{ category.title }}">{{ category.title }}</a> <span>{{ posts.size }}</span></li>
+        <li class=""><a href="/actubi{{ category.url }}" title="{{ category.title }}">{{ category.title }}</a> <span>{{ posts.size }}</span></li>
         {% endfor %}
     </ul>
 </div>

@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-sm-12">
                 <div class="ads">
-                    <a href="#"><img src="images/pub_large.jpg" class="img-responsive center-block" alt=""></a>
+                    <a href="#"><img src="/actubi/images/pub_large.jpg" class="img-responsive center-block" alt=""></a>
                 </div>
             </div>
         </div>
@@ -27,8 +27,8 @@
                                 <div class="post-wrapper">
                                     <!-- image -->
                                     <div class="post-thumb">
-                                        <a href="{{ post.url }}">
-                                            <img class="" src="{{ post.main_img }}" alt="" width="230px" height="130px">
+                                        <a href="/actubi{{ post.url }}">
+                                            <img class="" src="/actubi{{ post.main_img }}" alt="" width="230px" height="130px">
                                         </a>
                                     </div>
                                     <div class="post-info meta-info-rn">
@@ -37,7 +37,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <h5><a href="{{ post.url }}">{{ post.title | slice: 0, 45 }} ...</a></h5>
+                                <h5><a href="/actubi{{ post.url }}">{{ post.title | slice: 0, 45 }} ...</a></h5>
                                 <div class="post-title-author-details">
                                     <p>{{ post.mini_desc | slice: 0, 80}} ...</p>
                                 </div>

@@ -22,7 +22,7 @@
                     </li>
                     {% for category in site.categories %}
                     <li>
-                        <a href="{{ category.url }}">{{ category.title }}</a>
+                        <a href="/actubi{{ category.url }}">{{ category.title }}</a>
                     </li>
                     {% endfor %}
                     <li>
@@ -78,8 +78,8 @@
                         <ul class="top-header-menu">
                             <li><a href="http://www.senseries.com/" target="_blank" >SERIES TV</a></li>
                             <li><a href="http://www.snzik.com/" target="_blank" >MUSIQUE</a></li>                            
-                            <li><a href="/contact" target="_blank" >CONTACT</a></li>
-                            <li><a href="/radios" target="_blank">RADIO EN DIRECT</a></li>
+                            <li><a href="/actubi/contact" target="_blank" >CONTACT</a></li>
+                            <li><a href="/actubi/radios" target="_blank">RADIO EN DIRECT</a></li>
                         </ul>
                     </div>
                 </div>
@@ -88,7 +88,7 @@
                     <div class="newsticker-inner">
                         <ul class="newsticker">
                         {% for post in site.posts limit: 5 %}
-                            <li><span class="color-1">{{ post.categories }} -</span><span class="color-2">{{ post.rubriques }}</span><a href="{{ post.url }}">{{ post.title | escape }}</a></li>
+                            <li><span class="color-1">{{ post.categories }} -</span><span class="color-2">{{ post.rubriques }}</span><a href="/actubi{{ post.url }}">{{ post.title | escape }}</a></li>
                             
                         {% endfor %}
                         </ul>
@@ -146,10 +146,10 @@
         <nav class="navbar">
             <div class="collapse navbar-collapse text-center">
                 <ul class="nav navbar-nav">
-                    <li><a href="/" class="category04" style="background-color: #f60d2b;">ACCUEIL</a></li>
+                    <li><a href="/actubi/" class="category04" style="background-color: #f60d2b;">ACCUEIL</a></li>
                 {% for category in site.categories %}
                     <li class="dropdown">
-                        <a href="{{ category.url }}" class="category04 text-uppercase">{{ category.title }} </span></a>
+                        <a href="/actubi{{ category.url }}" class="category04 text-uppercase">{{ category.title }} </span></a>
                         <!--
                         <ul class="dropdown-menu menu-slide">
                             {% assign rubriques = site.rubriques | where:"categories", category.title   %}
